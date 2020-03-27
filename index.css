@@ -28,6 +28,20 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: burlywood;
 }
+.Skills{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+}
+.Education{
+    background-color: white;
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;    
+    background-color: lightblue;
+    font-weight: bold;
+    padding: top:40px;
+    
+}
 h1{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -37,8 +51,10 @@ h2{
 }
 #my_photo{
     width: 800px; 
-    height: 500px;"
-    position: relative;    
+    height: 500px;
+    display: block;    
+    position: relative; 
+    vertical-align: middle;   
 }
 #aboutme{
     margin-top: 400px;
@@ -49,7 +65,9 @@ h2{
 #inspirational_quote{
     width: 800px;
     height: 500px;
+    display: block;
     position: relative;
+    vertical-align: middle;
 }
 h3{
     font-family: Arial, Helvetica, sans-serif;
