@@ -1,8 +1,13 @@
-.heading {
-    font-family: Arial, Helvetica, sans-serif;
+.Everything{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Everything li{
+    list-style-type: square;
+}
+.heading {    
     text-align:center;
     background-image: url(https://media-exp1.licdn.com/dms/image/C4E22AQHZQM3p0aAOsw/feedshare-shrink_2048_1536/0?e=1588204800&v=beta&t=nTL5uMyAJHEHQkKRwsCTiSSoqLNhS7PQ8DNHkv38JOk);
-    width:auto;
+    max-width: 100;
     height: 600px ;
     padding: 75px;
     color:white;
@@ -12,75 +17,63 @@
     position: fixed;    
     width: 100%;
     top: 0;
-    background-color:#55d6aa;
+    background-color:rgba(24, 10, 85, 0.75);
 }
 .navbar li{
     display: inline-block;
     padding: 20px;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;        
     position: relative;
 }
 .navbar a{
     text-decoration: none;
     color: rgb(6, 17, 17);
 }
-.Experience{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(24, 10, 85, 0.3);
+.Experience{        
     margin: 10px; 
-    line-height: 30px;      
+    line-height: 30px;         
 }
-.Skills{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:  rgba(24, 10, 85, 0.3);
+.Skills{         
     margin: 10px;
 }
-.Education{
-    background-color: rgba(255, 255, 255, 0.233);
+.Education{    
     margin: 10px;
 }
-.footer{
-    font-family: Arial, Helvetica, sans-serif;    
-    background-color:  rgba(24, 10, 85, 0.3);
+.footer{        
     font-weight: bold;
     margin-bottom: 10px;        
 }
-h1{
-    font-family: Arial, Helvetica, sans-serif;
+.footer li{
+    display: inline-block;
 }
-h2{
-    background-color: silver;
+h2{    
     text-transform: capitalize;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px; 
+      
 }
 #my_photo{
     width: 600px; 
-    height: 400px;
-    display: ;    
+    height: 400px;      
     position: relative;
     border-radius: 70%;        
 }
-#aboutme{
+#aboutme {
     margin-top: 10px;
     font-size: 20px;
     font-style: italic;
     line-height: 50px;
 }
-h3{
-    font-family: Arial, Helvetica, sans-serif;
-    text-emphasis-color: # ffffff;
+h3 {        
+    font-size: 20px;
 }
 .navbar a:hover{
     color: blue;
 }
-.navbar a::before{
+.navbar a::before{    
     background-color: rgb(13, 13, 14);
     height: 5px;
     width: 0%;
-    top: 5px;
-    content: '';
+    top: 5px;    
     display: block;
     position: absolute;
     transition: all ease-in-out 250ms;
